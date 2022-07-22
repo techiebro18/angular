@@ -1,0 +1,15 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Task</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let task of todos">
+        <th scope="row">{{task.id}}</th>
+        <td>{{task.title}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
